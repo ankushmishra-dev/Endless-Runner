@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Endless Runner</title>
+  <link rel="icon" href="images/d.png" >
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(135deg, #facc15, #2563eb);
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .container {
+      text-align: center;
+      background: rgba(255, 255, 255, 0.95);
+      padding: 30px;
+      border-radius: 20px;
+      box-shadow: 0 0 20px rgba(0,0,0,0.3);
+    }
+
+    .container img.logo {
+      width: 200px;
+      margin-bottom: 20px;
+    }
+
+    .container img.runner {
+      width: 80px;
+      margin-bottom: 10px;
+    }
+
+    .play-btn {
+      margin-top: 20px;
+      background: #2563eb;
+      color: white;
+      padding: 12px 28px;
+      font-size: 18px;
+      border: none;
+      border-radius: 12px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    .play-btn:hover {
+      background: #1d4ed8;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="images/logo.png"  class="logo" />
+    <img src="images/icon.png"  class="runner" />
+    <h2>Welcome to Endless Runner</h2>
+    <p>Dodge, Collect, Run and Win!</p>
+    <button class="play-btn" onclick="location.href='index.html'">Play Now</button>
+  </div>
+</body>
+</html>
